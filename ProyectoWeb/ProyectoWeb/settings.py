@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'GestionGeneralWeb',
     'servicios',
+    'Blog',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'ProyectoWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas'],
+        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas',r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\servicios\Plantillas"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

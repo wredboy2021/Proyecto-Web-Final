@@ -1,10 +1,9 @@
 from django.urls import path
-from GestionGeneralWeb.views import home,servicios,tienda,blog,contacto
+from GestionGeneralWeb.views import home,tienda,blog,contacto
 from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
     path('',home,name='Home'),
-    path('Servicios',servicios, name="Servicios"),
     path('Tienda',tienda, name="Tienda"),
     path('Blog',blog, name="Blog"),
     path('Contacto',contacto,name="Contacto")

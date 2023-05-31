@@ -1,10 +1,9 @@
 from django.shortcuts import render,HttpResponse
+from servicios.models import servicios
 
 def home(request):
     return render(request,'GestionGeneralWeb/Home')
 
-def servicios(request):
-    return render(request,'GestionGeneralWeb/Servicios')
 
 def tienda(request):
     return render(request,'GestionGeneralWeb/Tienda')
