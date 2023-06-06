@@ -13,12 +13,13 @@ class Categorias(models.Model):
         verbose_name_plural = "Categorias"
 
     def __str__(self):
-        return f"Nombre de la Categoria {self.nombre}"
+        return self.nombre
 
 class post(models.Model):
     titulo=models.CharField(max_length=50)
     contenido=models.CharField(max_length=200)
     autor=models.ForeignKey(User, on_delete=models.CASCADE)
+    categoria=models.ManyToManyField(Categorias)
     imagen=models.ImageField(upload_to='Blog')
     create=models.DateTimeField(auto_now_add=True)
     update=models.DateTimeField(auto_now_add=True)
@@ -27,4 +28,4 @@ class post(models.Model):
         verbose_name_plural="posts"
         
     def __str__(self):
-        return self.name
+        return f"Titulo de la categoria:{self.titulo} "

@@ -1,8 +1,0 @@
-<!DOCTYPE htlm>
-{% extends "GestionGeneralWeb/Base"%}
-{% load static %}
-{% block content %}
-
-<div><p><p><div>
-
-{% endblock %}

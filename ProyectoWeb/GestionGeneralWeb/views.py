@@ -8,8 +8,6 @@ def home(request):
 def tienda(request):
     return render(request,'GestionGeneralWeb/Tienda')
 
-def blog(request):
-    return render(request,'GestionGeneralWeb/Blog')
 
 def contacto(request):
     return render(request,'GestionGeneralWeb/Contacto')

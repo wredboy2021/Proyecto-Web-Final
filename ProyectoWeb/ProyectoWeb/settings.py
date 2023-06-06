@@ -57,7 +57,9 @@ ROOT_URLCONF = 'ProyectoWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas',r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\servicios\Plantillas"],
+        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas',r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\servicios\Plantillas",
+                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas",
+                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas\Blog"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
