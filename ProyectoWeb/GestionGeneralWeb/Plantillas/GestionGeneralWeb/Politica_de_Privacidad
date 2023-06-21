@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends "GestionGeneralWeb/Base"%}
+{% load static %}
+{% block content %}
+
+<html lang="en">
+<head>
+</head>
+<body>
+    <p>Politicas de privacidad</p>
+</body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "GestionGeneralWeb/Base"%}
+{% load static %}
+{% block content %}
+<p>Prueba</p>
+
+{% endblock %}

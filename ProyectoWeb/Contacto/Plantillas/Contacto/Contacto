@@ -1,0 +1,8 @@
+<!DOCTYPE htlm>
+{% extends "GestionGeneralWeb/Base"%}
+{% load static %}
+{% block content %}
+
+<div><table style="color: aliceblue;">{{Formu.as_table}}</p></table>
+
+{% endblock %}

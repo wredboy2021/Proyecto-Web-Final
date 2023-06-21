@@ -18,16 +18,15 @@
         </div>
       </div>
     </section>
-  {% endfor %}
-  <section>
-    <div style="width: 75%;margin:auto; text-align: center; color:rgb(255, 255, 255)">
-      Categoria:
-      {% for Blog in Po %}
-       
-       {% for Cat in Blog.categoria.all%}
-        {{Cat.nombre}}
+    {% endfor %}
+    <section>
+      <div style="width: 75%;margin:auto; text-align: center; color:rgb(255, 255, 255)">
+        Categoria:
+        {% for Blog in Po %}
+          {% for Cat in Blog.categoria.all %}
+            <a href="{% url 'categorias' Cat.id %}" class="EstiloCat">{{ Cat.nombre }}</a> 
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
-    </div>
-  </section>
-{% endblock %}
+      </div>
+    </section>
+    {% endblock %}

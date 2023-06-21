@@ -85,7 +85,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #1f19c6;
+  color: #19c62d;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(65, 203, 10);
   color: cornsilk;
 }
 
@@ -276,4 +276,14 @@ ul.errorlist{
   padding-top: .75rem;
   font-style: italic;
   color: red;
+}
+
+
+.EstiloCat{
+  color: white !important;
+  text-decoration: underline !important;
+
+
+
+
 }

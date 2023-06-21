@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'GestionGeneralWeb',
     'servicios',
     'Blog',
+    'Contacto',
 ]
 
 MIDDLEWARE = [
@@ -59,7 +60,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas',r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\servicios\Plantillas",
                  r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas",
-                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas\Blog"],
+                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas\Blog",
+                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Contacto\Plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
