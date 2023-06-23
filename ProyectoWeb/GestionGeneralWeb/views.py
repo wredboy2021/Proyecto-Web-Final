@@ -4,13 +4,6 @@ from servicios.models import servicios
 def home(request):
     return render(request,'GestionGeneralWeb/Home')
 
-
-def tienda(request):
-    return render(request,'GestionGeneralWeb/Tienda')
-
-
-
-
 def Politica(request):
     return render(request, 'GestionGeneralWeb/Politica_de_Privacidad')
 

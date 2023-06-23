@@ -23,5 +23,6 @@ urlpatterns = [
     path('',include('GestionGeneralWeb.urls')),
     path('Servicios',include('servicios.urls')),
     path("Blog",include('Blog.urls')),
-    path("Contacto",include('Contacto.urls'))
+    path("Contacto",include('Contacto.urls')),
+    path("Tienda",include("Tienda.urls"))
 ]

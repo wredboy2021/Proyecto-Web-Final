@@ -2,6 +2,12 @@
 {% extends "GestionGeneralWeb/Base"%}
 {% load static %}
 {% block content %}
-<p>Prueba</p>
+<div class="contenerdorformulario">
+    <p style="color:aliceblue; text-align:center">Como usuario usted nos proporciona Sus cookies</p>
+    <p style="text-align: center; color:aliceblue">Al usted entrar en la web nosotros podemos acceder a sus cookies</p>
+    <p style="text-align: center;color:aliceblue">Si tiene algun problema acceda a la seccion de contacto</p>
+
+
+</div>
 
 {% endblock %}

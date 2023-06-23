@@ -2,13 +2,13 @@
 {% extends "GestionGeneralWeb/Base"%}
 {% load static %}
 {% block content %}
+<div class="contenerdorformulario">
 
-<html lang="en">
-<head>
-</head>
-<body>
-    <p>Politicas de privacidad</p>
-</body>
-</html>
+    <p style="color:aliceblue; text-align:center">En los foros no se puede hablar de otro tema</p>
 
+    <p style="text-align: center; color:aliceblue">Y punto cachon</p>
+    <p style="text-align: center;color:aliceblue">No me pondre con tecnisimos raros</p>
+
+
+</div>
 {% endblock %}

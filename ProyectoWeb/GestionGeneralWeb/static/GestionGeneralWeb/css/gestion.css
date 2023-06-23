@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgb(65, 203, 10);
+  background-color: rgb(24, 64, 8);
   color: cornsilk;
 }
 
@@ -285,5 +285,14 @@ ul.errorlist{
 
 
 
+
+}
+
+.contenerdorformulario{
+  background-color: rgb(24, 64, 8);
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 1px 0px;
 
 }

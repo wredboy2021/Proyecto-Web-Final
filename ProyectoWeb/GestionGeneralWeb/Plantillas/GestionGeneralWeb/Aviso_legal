@@ -3,6 +3,12 @@
 {% load static %}
 {% block content %}
 
+<div class="contenerdorformulario">
+    <p style="color:aliceblue; text-align:center">Cualquier accion legal en contra de la empresa</p>
+    <p style="text-align: center; color:aliceblue">Sera duramente demandado</p>
+    <p style="text-align: center;color:aliceblue">Queda advertido</p>
 
+
+</div>
 
 {% endblock %}

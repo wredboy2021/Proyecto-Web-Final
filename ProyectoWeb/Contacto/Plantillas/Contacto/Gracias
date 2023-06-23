@@ -1,0 +1,13 @@
+<!DOCTYPE htlm>
+{% extends "GestionGeneralWeb/Base"%}
+{% load static %}
+{% block content %}
+
+<div class="contenerdorformulario">
+    <p style="text-align: center; color:aliceblue">Gracias Por enviar su informacion</p>
+    <p style="text-align: center;color:aliceblue">En breves Le estaremos respondiendo 😀</p>
+
+
+</div>
+
+{% endblock %}

@@ -2,7 +2,24 @@
 {% extends "GestionGeneralWeb/Base"%}
 {% load static %}
 {% block content %}
+<div class="contenerdorformulario">
+    <h1 style="text-align: center; color: aliceblue">Formulario de Contacto</h1>
 
-<div><table style="color: aliceblue;">{{Formu.as_table}}</p></table>
+        {% if Formu.is_valid %}
+    
+         <form action="" method="POST" style="text-align: center;">
+          {% csrf_token %}    
+          <table style="color: aliceblue; margin: 20px auto;">{{Formu.as_table}}</p></table>
+          <input type="submit" name="Enviar" style="color: black;">
+         </form>
+        {% else %}
+        <form action="" method="POST" style="text-align: center;">
+            {% csrf_token %}    
+            <table style="color: aliceblue; margin: 20px auto;">{{Formu.as_table}}</p></table>
+            <input type="submit" name="Enviar" style="color: black;">
+            <p style="text-align: center; color:aliceblue"></p>
+           </form>
+        {% endif %}
+    </div>
 
 {% endblock %}

@@ -1,0 +1,14 @@
+<!DOCTYPE htlm>
+{% extends "GestionGeneralWeb/Base"%}
+{% load static %}
+{% block content %}
+
+<div class="contenerdorformulario">
+    <title style="color:aliceblue; text-align:center">Error al enviar su informacion</title>
+    <p style="text-align: center; color:aliceblue">Tuvimos un error</p>
+    <p style="text-align: center;color:aliceblue">Intentelo mas tarde</p>
+
+
+</div>
+
+{% endblock %}
