@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'servicios',
     'Blog',
     'Contacto',
-    'Tienda',
+    'Tienda'
 ]
 
 MIDDLEWARE = [
@@ -59,11 +59,11 @@ ROOT_URLCONF = 'ProyectoWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\GestionGeneralWeb\Plantillas',r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\servicios\Plantillas",
-                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas",
-                 r"C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Blog\Plantillas\Blog",
-                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Contacto\Plantillas',
-                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\Proyecto_Final\ProyectoWeb\Tienda\Plantillas'],
+        'DIRS': [r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\WebFinal\Proyecto-Web-Final\ProyectoWeb\GestionGeneralWeb\Plantillas',
+                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\WebFinal\Proyecto-Web-Final\ProyectoWeb\Contacto\Plantillas',
+                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\WebFinal\Proyecto-Web-Final\ProyectoWeb\Blog\Plantillas',
+                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\WebFinal\Proyecto-Web-Final\ProyectoWeb\servicios\Plantillas',
+                 r'C:\Users\Sebastian\Desktop\Archivos_De_Sebastian\Espacios de trabajos\Django\WebFinal\Proyecto-Web-Final\ProyectoWeb\Tienda\Plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
