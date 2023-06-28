@@ -15,11 +15,10 @@ class Producto(models.Model):
     updated=models.DateTimeField(auto_now_add=True)
     categoria=models.ForeignKey(Categorias, on_delete=models.CASCADE)
     precio=models.FloatField()
-    imagen=models.ImageField(upload_to='Tienda', null=True,blank=True)
+    imagen=models.ImageField(upload_to='Tienda')
     disponibilidad=models.BooleanField(default=True)
     class Meta:
         verbose_name='Producto'
         verbose_name_plural='Productos'
     def __str__(self):
         return self.nombre
-    

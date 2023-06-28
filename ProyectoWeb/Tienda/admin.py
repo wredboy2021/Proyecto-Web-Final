@@ -2,10 +2,10 @@ from django.contrib import admin
 from .models import Categorias, Producto
 
 class Admincategorias(admin.ModelAdmin):
-    reandoly_fields=('create','updated')
+    readonly_fields=("created","updated")
     
 class Adminproducto(admin.ModelAdmin):
-    reandoly_fields=('create','updated')
+    readonly_fields=("created","updated")
 
 
 admin.site.register(Categorias,Admincategorias)

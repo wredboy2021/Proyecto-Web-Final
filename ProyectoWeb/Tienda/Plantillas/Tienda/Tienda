@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-{% extends "GestionGeneralWeb/Base" %}
-{% load static %}
-{% block content %}
+<html>
+<head>
+  <title>Título de la página</title>
+</head>
+<body>
+  {% extends "GestionGeneralWeb/Base" %}
+  {% load static %}
+  {% block content %}
+  <div class="container">
+    <div class="row">
+      {% for A in P %}
+      <div class="col-md-3">
+        <div class="card" style="width: 100%;">
+          <img src="{{ A.imagen.url }}" alt="Imagen" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title">{{ A.nombre }}</h6>
+            <p class="card-text">{{ A.precio }} $</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endblock %}
+</body>
+</html>
 
-<p style="text-align: center;color:aliceblue">Hola buenas</p>
 
-{% endblock %}
