@@ -25,4 +25,8 @@ path("/categorias/3/Aviso_Legal", redirectAviso_Legal),
 path('/categorias/1/Cookie', redirectCookies),
 path("/categorias/2/Cookie", redirectCookies),
 path("/categorias/3/Cookie", redirectCookies),
+path('/categorias/1/Tienda', redirectTienda),
+path("/categorias/2/Tienda", redirectTienda),
+path("/categorias/3/Tienda", redirectTienda),
+
 ]

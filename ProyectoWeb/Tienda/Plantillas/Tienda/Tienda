@@ -8,6 +8,9 @@
   {% load static %}
   {% block content %}
   <div class="container">
+    <div style="right: auto;">
+      <p style="color: aliceblue;">Texto de prueba</p>
+    </div>
     <div class="row">
       {% for A in P %}
       <div class="col-md-3">
@@ -16,6 +19,12 @@
           <div class="card-body">
             <h6 class="card-title">{{ A.nombre }}</h6>
             <p class="card-text">{{ A.precio }} $</p>
+          </div>
+          <div class="card-footer text-center">
+            
+            <a href="#", class="btn btn-success">Agregar al carrito</a>
+            
+
           </div>
         </div>
       </div>
